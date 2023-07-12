@@ -242,8 +242,8 @@
     width: 100%;
   }
 
-  .nav-item + .nav-item .nav {
-    margin: var(0 0 0 2rem);
+  .nav .nav-item + .nav-item {
+    margin: (0 0 0 2rem);
   }
   
   /* Header
