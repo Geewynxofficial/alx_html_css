@@ -1,0 +1,8 @@
+body {
+    background: #fff;
+    width: 1440px;
+    height: 3718px;
+}
+.banner {
+    background-image: url(images/Object.png);
+}
