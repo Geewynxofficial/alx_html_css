@@ -21,14 +21,13 @@ body {
 /* HEADER ================= */
 
 .logo {
-    
     flex-shrink: 0;
     margin-left: 200px;
     display: flex;
     justify-content: flex-start;
 }
 .logo a {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 167.016px;
     height: 29.461px;
 }
@@ -50,4 +49,333 @@ body {
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+}
+
+.get-schooled {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;   
+}
+.get {
+     width: 684px;
+    height: 151px;
+}
+.get-schooled h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.words {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.words p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.button-size {
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #C271FF;
+}
+.reg-width a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;   
+}
+.learn {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+.learn-design p b {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* width: 261px;
+    height: 40px; */
+}
+.learn-design p {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.avatar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.smile {
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+.smile p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; 
+    /* 150% */
+}
+.name {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.name p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px; 
+    margin-bottom: 0px;
+    /* 150% */
+}
+
+/* QUOTE SECTION */
+.quote {
+    background-color:#C271FF;
+    width: 1440px;
+    height: 392px;
+    flex-shrink: 0; 
+}
+.quote-position {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: px;
+}
+.quote-image {
+    width: 394px;
+    height: 341px;
+    flex-shrink: 0;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+.bio {
+    width: 730px;
+    height: 158px;
+    flex-shrink: 0;
+    margin-top: 120px;
+    margin-right: 300px;
+}
+.those-tutorials {
+    width: 730px;
+}
+.those-tutorials q {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+.Godwin {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 152.727% */
+}
+.weather {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+.video {
+    width: 1228px;
+    height: 450px;
+    flex-shrink: 0;
+    /* background-color: #C271FF; */
+    margin: auto;
+    margin-top: 30px;
+}
+.most {
+    display: flex;
+    justify-content: center;
+}
+.most b {
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.most p {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.image-popular {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.lorem {
+   width: 242px;
+   margin-right: 50px;
+   text-align: left;
+}
+.lorem p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.Diagonal {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Phillip {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+.Phillip img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: 14px;
+}
+.Phillip-name{
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+}
+.ranking {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.rank-img {
+    margin-top: 20px;
+}
+.minutes {
+    margin-bottom: 100px;
+    color: #C271FF;
+    text-align: right;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+}
+
+/* MEMBERSHIP */
+
+.membership {
+    background-color: #071629;
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    margin-top: 200px;
+}
+
+.free-membership {
+    display: flex;
+    justify-content: center;
+}
+.free-membership b {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.free-membership p {
+    margin-top: 70px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.smiling-face {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.FAQ {
+    width: 920px;
+    height: 707px;
+    flex-shrink: 0;
+    margin: auto;
+    background-color: aqua;
+}
+.footer-background {
+    width: 1440px;
+    height: 249px;
+    flex-shrink: 0;
+    background-color: #071629;
 }
